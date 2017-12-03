@@ -1,3 +1,14 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+h1 {
+  font-size: 30px;
+}
+
+
+.navbar-nav {
+  position: relative;
+  float: center;
+  font-size: 20px;
+}
