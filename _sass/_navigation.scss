@@ -1,7 +1,7 @@
 .nav-item{
     font-size: 20px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     padding-left: 49px;
     padding-right: 49px;
   }
@@ -11,15 +11,15 @@
 }
 
 
-    .navbar {
-      padding: 0.3rem 0 !important;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      position: relative;
-      background-color:#0f3242;
-      margin-bottom: -10px;
-    }
+.navbar {
+  padding: 0.3rem 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  background-color:#0f3242;
+  margin-bottom: -10px;
+}
   
     .navbar-toggler{
       display: flex;
@@ -52,3 +52,4 @@
     .navbar-light .navbar-nav .nav-link{
       color: white
     }
+
