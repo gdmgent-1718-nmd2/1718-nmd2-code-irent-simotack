@@ -9,7 +9,19 @@ title: Route gegevens
         <h1> PLAN JE ROUTE </h1>
     <div class="row">
 
-        <div class="col-12 col-md-12 col-lg-7">   
+        <div class="col-12 col-md-12 col-lg-12">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                             80%
+                </div>
+            </div>
+        </div>
+
+        <div class="titelpad col-12">
+                <h2 class="text-center">GEGEVENS</h2>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-6">   
 
         <form>
             <div class="form-group">
@@ -44,10 +56,25 @@ title: Route gegevens
         </div>        
         </div>
 
+        <div class="paymentwrap col-12 col-md-6 col-lg-6">
+                <div class="btn-group paymentbtngroup btn-group-justified" data-toggle="buttons">
+                    <label class="btn paymentmethod active">
+                        <div class="method visa"></div>
+                        <input type="radio" name="options" checked> 
+                    </label>
+                    <label class="btn paymentmethod">
+                        <div class="method master-card"></div>
+                        <input type="radio" name="options"> 
+                    </label>                
+                </div>        
+            </div>
+
     </div>  
 
-    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">betaal</button>
-    
+    <div class="col-12 col-md-12 col-lg-12">
+    <button type="button" class="betaalknop btn btn-outline-info text-right" data-toggle="modal" data-target="#myModal">betaal</button>
+    </div>
+
       <!-- Modal -->
       <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
@@ -55,19 +82,18 @@ title: Route gegevens
           <!-- Modal content-->
           <div class="modal-content text-center">
             <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h2 class="modal-title">Bevestiging</h2>
+              <button type="button" class="close" data-dismiss="modal"></button>
             </div>
             <div class="modal-body">
               <p>Uw betaling is voltooid, u krijgt een mail met verdere info.</p>
             </div>
             <div class="modal-footer">
 
-              <button href="index.html" type="button" class="btn btn-outline-info" >terug naar home</button>
+                <a href="index.html" class="knopjumbo btn btn-outline-info"> NAAR HOME</a>
             </div>
           </div>
           
         </div>
-      </div>
+       </div>
 </div>
 
