@@ -5,10 +5,6 @@ p {
     font-size: 18px;
 }
 
-.display-3 {
-  font-weight: bold;
-}
-
 // titels // 
 
 h1 {
@@ -35,7 +31,16 @@ h4 {
     margin-left: 30px;
 }
 
+//index //
 
+.text-index {
+    text-align: center;
+}
+// submyrine //
+
+.text-submyrine {
+    text-align: center;
+}
 
 // verhuursvoorwaarden // 
 
@@ -89,10 +94,11 @@ transition: all 1s ease;
   font-family: 'News Cycle', sans-serif;
   font-size: 15px;
   color: white; 
+  margin-top:20px;
 }
 
 .footer {
-  margin-top: 15px;
+  margin-top: 30px;
   height: 150px;
   background-color: #09191f;
 }
@@ -294,4 +300,47 @@ height: 500px;
 hr {
   border-width: 1px;
   border-color: black;
+}
+
+// contact // 
+
+.contact {
+    text-align: center;
+}
+
+
+
+
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {  
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+    .text-submyrine {
+        text-align: left;
+    }
+
+    .text-index {
+        text-align: left;
+    }
+
+    .contact {
+        text-align: left;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
 }
