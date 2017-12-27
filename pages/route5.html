@@ -1,0 +1,73 @@
+---
+layout   : default
+permalink: route5.html
+# Custom Page Variables
+# ─────────────────────
+title: Route gegevens 
+---
+<div class="container">
+        <h1> PLAN JE ROUTE </h1>
+    <div class="row">
+
+        <div class="col-12 col-md-12 col-lg-12">   
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputName">Gegevens:</label>
+                <input type="name" class="form-control" id="exampleInputName" placeholder="Voornaam">
+            </div>
+            <div class="form-group">
+                <input type="surname" class="form-control" placeholder="Achternaam">
+            </div>
+
+            <div class="form-group">
+                <input type="cardnumber" class="form-control" placeholder="Kaartnummer">
+            </div>
+
+            <div class="form-group">
+                <input type="cardnumber" class="form-control" placeholder="Geldig tot">
+            </div>
+
+            <div class="form-group">
+                <input type="cardnumber" class="form-control" placeholder="CVC/CVV">
+            </div>
+
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="email">
+            </div>
+
+        </form>
+
+        <div class="container-fluid text-left" style="margin-top:10px">
+                <input type="checkbox" id="checkbox"> Ik heb de verkoopsvoorwaarden gelezen <br>
+                <input type="checkbox" id="checkbox"> Ja, ik wil mij abonneren op de nieuwsbrief
+        </div>        
+        </div>
+
+    </div>  
+
+    <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#myModal">betaal</button>
+    
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content text-center">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">Bevestiging</h2>
+            </div>
+            <div class="modal-body">
+              <p>Uw betaling is voltooid, u krijgt een mail met verdere info.</p>
+            </div>
+            <div class="modal-footer">
+                
+              <button href="index.html" type="button" class="btn btn-outline-info" >terug naar home</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+</div>
+

@@ -1,0 +1,297 @@
+// body //
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.display-3 {
+  font-weight: bold;
+}
+
+// titels // 
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:yellow;
+}
+
+h2 {
+  font-size: 30px;
+  color: yellow;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h4 {
+    font-size: 30px;
+    color:white;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+
+
+// verhuursvoorwaarden // 
+
+strong {
+  color: #15455f;
+  font-size: 22px;
+}
+
+// partners //
+
+.galery {
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+ 
+.galery:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+.galery {
+    margin-bottom: 25px;
+}
+
+// top button //
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 999; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #416375; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+}
+
+#myBtn:hover {
+  background-color: rgb(219, 203, 57); 
+}
+
+// footer//
+
+.footer-tekst {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 15px;
+  color: white; 
+}
+
+.footer {
+  margin-top: 15px;
+  height: 150px;
+  background-color: #09191f;
+}
+
+// Plan je dag kalender //
+
+.month {
+  padding: 70px 25px;
+  background: rgb(233, 232, 232);
+  text-align: center;
+  margin-top: 5px;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #0f3346;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: white;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #15455f;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: rgb(255, 255, 255);
+}
+
+.days li .active {
+  padding: 5px;
+  background: #e9e625;
+  color: white !important
+}
+
+.nietvrij {
+  background-color: #e4f73c;
+}
+
+// knoppen //
+
+.btn {
+    margin-left: 20px;
+}
+
+// jumbotron //
+
+.jumbotronbetaling {
+    background-color: #e4f73c;
+}
+
+.display-3 {
+    color:white;
+    font-size: 100px;
+    
+}
+
+.foto2 {
+background: url(../../images/banner.jpg) no-repeat center center;
+background-size: cover;
+width: 100%;
+height: 500px;
+
+}
+
+.foto3 {
+    background: url(../../images/banner2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.foto4 {
+    background: url(../../images/banner3.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 190px;
+}
+.kleurvlak {
+    background-color: #0f3346;
+}
+
+.particulieren {
+    background-color: #0f3346;
+    color:white;
+}
+
+.groepen {
+    background-color: #1a6185;
+    color:white;
+}
+
+.antwerpen {
+    background: url(../../images/haven1.gif) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.blankenberge {
+    background: url(../../images/haven2.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+.antwerpen2 {
+    background: url(../../images/haven3.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+
+// + en - kot //
+
+.count-input {
+  position: relative;
+  width: 100%;
+  max-width: 100px;
+  margin: 10px auto;
+ 
+}
+
+.count-input input {
+  width: 100%;
+  height: 36.92307692px;
+  border: 1px solid #000;
+  border-radius: 2px;
+  background: none;
+  text-align: center;
+  color: green;
+}
+
+.count-input input:focus {
+  outline: none;
+  
+}
+
+.count-input .incr-btn {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  top: 50%;
+  right: 0;
+  margin-top: -15px;
+  text-decoration:none;
+  color: green;
+}
+
+.count-input .incr-btn:first-child {
+  right: auto;
+  left: 0;
+  top: 46%;
+  color: green;
+}
+
+// winkelmand //
+
+hr {
+  border-width: 1px;
+  border-color: black;
+}

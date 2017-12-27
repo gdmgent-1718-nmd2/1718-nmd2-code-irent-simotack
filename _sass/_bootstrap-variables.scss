@@ -8,15 +8,21 @@
 // Color system
 //
 
-$indigo:  #6610f2;
+$indigo:  #15455f;
 $primary: $indigo;
+$info: #15455f;
+
+
+
 
 // Fonts
 //
 // Font, line-height, and color for body text, headings, and more.
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Oswald');
 
-$font-family-base: arial;
+
+$font-family-base: 'Oswald', sans-serif;
 
 
