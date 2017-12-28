@@ -14,6 +14,7 @@ h1 {
   margin-bottom: 30px;
   color:yellow;
   text-align: center;
+  font-family: 'oswald';
 }
 
 h2 {
@@ -53,31 +54,6 @@ h5 {
     text-align: center;
 }
 
-// verhuursvoorwaarden // 
-
-strong {
-  color: #15455f;
-  font-size: 22px;
-}
-
-// partners //
-
-.galery {
--webkit-transition: all 1s ease;
--moz-transition: all 1s ease;
--o-transition: all 1s ease;
--ms-transition: all 1s ease;
-transition: all 1s ease;
-}
- 
-.galery:hover {
-  -webkit-filter: grayscale(100%);
-}
-
-.galery {
-    margin-bottom: 25px;
-}
-
 // top button //
 
 #myBtn {
@@ -97,32 +73,6 @@ transition: all 1s ease;
 
 #myBtn:hover {
   background-color: rgb(219, 203, 57); 
-}
-
-// footer//
-
-.footer-tekst {
-  font-family: 'News Cycle', sans-serif;
-  font-size: 15px;
-  color: white; 
-  margin-top:20px;
-}
-
-.footer {
-  height: 170px;
-  background-color: #09191f;
-  margin-top: 20px;
-}
-
-.socials {
-    margin-top: 40px;
-    font-size:10px;
-
-}
-
-.fa {
-    color:white;
-    padding: 5px;
 }
 
 // Plan je dag kalender //
@@ -201,7 +151,7 @@ transition: all 1s ease;
 // knoppen //
 
 .btn {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .knopjumbo {
@@ -223,6 +173,10 @@ transition: all 1s ease;
   
 }
 
+.contactknop {
+    margin-left: -1px;
+}
+
 
 // jumbotron //
 
@@ -237,10 +191,10 @@ transition: all 1s ease;
 }
 
 .foto2 {
-background: url(../../images/bannermobiel.jpg) no-repeat center center;
-background-size: cover;
-width: 100%;
-height: 500px;
+    background: url(../../images/bannermobiel.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
 
 }
 
@@ -257,6 +211,7 @@ height: 500px;
     width: 100%;
     height: 190px;
 }
+
 .kleurvlak {
     background-color: #0f3346;
 }
@@ -411,10 +366,62 @@ hr {
     text-align: center;
 }
 
+// verhuursvoorwaarden // 
+
+strong {
+    color: #15455f;
+    font-size: 22px;
+}
+
+.verhuursvoorwaarden {
+    text-align: center;
+}
 
 
+// partners //
+
+.galery {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+     
+.galery:hover {
+    -webkit-filter: grayscale(100%);
+}
+    
+.galery {
+    margin-bottom: 25px;
+}
 
 
+// footer//
+
+.footer-tekst {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 15px;
+    color: white; 
+    margin-top:20px;
+  }
+  
+.footer {
+    height: 200px;
+    background-color: #09191f;
+    margin-top: 20px;
+}
+  
+.socials {
+    margin-top: 40px;
+    font-size:10px;
+  
+}
+  
+.fa {
+    color:white;
+    padding: 5px;
+}
 
 
 // Small devices (landscape phones, 576px and up)
@@ -481,7 +488,9 @@ hr {
         height: 500px;
         
         }
-    
+    .verhuursvoorwaarden {
+        text-align: left;
+    }
 
  }
 

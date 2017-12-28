@@ -21,35 +21,36 @@
   margin-bottom: -10px;
 }
   
-    .navbar-toggler{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      position: relative;
-      text-align: right;
-      margin-left: auto;
-      margin-top: auto;
-      margin-right: 5%;
-      margin-top: 5%;
-      border: none;
+.navbar-toggler{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  text-align: right;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: 5%;
+  margin-top: 5%;
+  border: none;
    
       
-    }
-    .navbar-dark .navbar-toggler-icon {
-        border-color: white;
-    }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  border-color: white;
+}
   
-    .navbar-light .navbar-nav .nav-link.active {
-      color:  #ffffff;
-    }
+.navbar-light .navbar-nav .nav-link.active {
+  color:  #edf053;
+}
   
-    .navbar-light .navbar-nav .nav-link:hover {
-      font-size: 20px;
-      font-weight: bold;
-      color: #edf053;
-    }
+.navbar-light .navbar-nav .nav-link:hover {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b2b416;
+}
   
-    .navbar-light .navbar-nav .nav-link{
-      color: white
-    }
+.navbar-light .navbar-nav .nav-link{
+  color: white
+}
 
